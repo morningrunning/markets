@@ -33,7 +33,7 @@ class Markets::CLI
         puts "\n\tPublished on #{the_story.date.first}\tWritten by #{the_story.author}\n"
         puts "\n\tStory summary: "
         puts "\t#{the_story.content}"
-        puts "\nRead more here by following this link:\nhttps://www.theatlantic.com/business/#{the_story.link}"
+        puts "\nRead more here by following this link:\nhttps://www.theatlantic.com#{the_story.link}"
 
       elsif input == "list"
           list_stories
